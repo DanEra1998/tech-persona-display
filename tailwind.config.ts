@@ -18,6 +18,10 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				sans: ['Inter', 'sans-serif'],
+				code: ['Fira Code', 'monospace'],
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
@@ -51,6 +55,12 @@ export default {
 				card: {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
+				},
+				tech: {
+					purple: 'hsl(var(--tech-purple))',
+					green: 'hsl(var(--tech-green))',
+					orange: 'hsl(var(--tech-orange))',
+					pink: 'hsl(var(--tech-pink))',
 				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
